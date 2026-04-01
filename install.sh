@@ -15,4 +15,4 @@
     
 } >/dev/null 2>&1
 
-echo -e "\e[32m✅ System updates applied successfully\e[0m"
+echo -e "\e[32m System updates applied successfully\e[0m"

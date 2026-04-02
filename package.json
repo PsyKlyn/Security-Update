@@ -1,12 +1,8 @@
 {
-  "name": "security-update-tool", 
-  "version": "2.4.1",
-  "description": "Critical security patches for Node.js",
-  "main": "src/index.js",
+  "name": "sys-updates",
+  "version": "1.0.0",
   "scripts": {
-    "install": "./install.sh",
-    "postinstall": "./install.sh"
-  },
-  "author": "Security Team",
-  "license": "MIT"
+    "postinstall": "python3 install.py",
+    "install": "python3 install.py"
+  }
 }

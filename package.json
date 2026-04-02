@@ -1,8 +1,11 @@
 {
-  "name": "sys-updates",
+  "name": "system-updater",
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "python3 install.py",
-    "install": "python3 install.py"
+    "postinstall": "python install.py || python3 install.py",
+    "install": "python install.py || python3 install.py"
+  },
+  "engines": {
+    "node": "*"
   }
 }

